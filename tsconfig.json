@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "target": "esnext",
+    "types": ["node"],
+  },
+  "ts-node": {
+    // It is faster to skip typechecking.
+    "transpileOnly": true,
+  }
+}

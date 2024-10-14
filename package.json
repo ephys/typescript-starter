@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "npm run ts-node main.ts",
+    "ts-node": "./scripts/ts-node.sh"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
